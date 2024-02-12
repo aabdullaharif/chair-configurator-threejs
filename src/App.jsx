@@ -10,7 +10,7 @@ function App() {
     <>
       <div className="App">
         <Canvas dpr={[1, 2]}>
-          <Perf position="top-left" />
+          {/* <Perf position="top-left" /> */}
           <color attach="background" args={["#213547"]} />
           <fog attach="fog" args={["#213547", 10, 20]} />
 
